@@ -1,3 +1,4 @@
+
 # https-github.com-HABYBYT
 Reliability and Verifiability in Artificial Intelligence for Financial Time Series: A Comprehensive Empirical Analysis Using S&amp;P 500 Data (2015-2025)
 import yfinance as yf
@@ -719,3 +720,71 @@ print("   - dashboard_synthese.png (synthesis dashboard)")
 print("   - README.md (documentation)")
 print("   - requirements.txt (dependencies)")
 print("="*80)
+===============================================================================
+RELIABILITY AND VERIFIABILITY IN AI FOR FINANCIAL TIME SERIES
+===============================================================================
+
+Analysis Date: 2026-03-17 02:00:35
+Ticker: SPY
+Period: 2015-02-02 to 2024-12-31
+Observations: 2496
+
+===============================================================================
+GENERATED FILES
+===============================================================================
+
+CSV Files (in 'results/' folder):
+  - table1_descriptive_stats.csv : Descriptive statistics
+  - table2_reliability.csv : Reliability analysis results
+  - table3_pca.csv : PCA variance decomposition
+  - table4_model_performance.csv : Final model performance metrics
+  - table5_safe_analysis.csv : S.A.F.E. analysis by decile
+  - table6_subperiod_analysis.csv : Subperiod performance analysis
+  - pca_loadings.csv : PCA loadings matrix
+  - reliability_gap.csv : Reliability gap percentages
+  - complete_summary.csv : Complete summary of all results
+
+LaTeX Files (in 'results/' folder):
+  - table1_descriptive.tex : Table 1 LaTeX source
+  - table2_reliability.tex : Table 2 LaTeX source
+  - table3_pca.tex : Table 3 LaTeX source
+  - table4_performance.tex : Table 4 LaTeX source
+  - table5_safe.tex : Table 5 LaTeX source
+  - table6_subperiod.tex : Table 6 LaTeX source
+  - all_tables.tex : All tables combined
+
+Figures (in 'figures/' folder):
+  - fig1_fiabilite_comparaison.png : Reliability comparison
+  - fig2_verifiabilite_analyse.png : Verifiability analysis (PCA)
+  - fig3_predictions_detaillees.png : Detailed predictions
+  - fig4_series_temporelles.png : Time series overview
+  - fig5_dashboard_synthese.png : Synthesis dashboard
+
+===============================================================================
+KEY RESULTS SUMMARY
+===============================================================================
+
+1. Descriptive Statistics (2015-2025):
+   - Mean Daily Return: 0.0564%
+   - Volatility (Std Dev): 1.1099%
+   - Skewness: -0.5609
+   - Kurtosis: 12.8246
+
+2. Reliability Analysis:
+   - Reliability Gap (Random CV underestimation):
+     * Simple MLP: -18.85%
+     * Deep MLP: -39.13%
+     * Regularized MLP: -35.32%
+     * Average Gap: -31.10%
+
+3. Verifiability Analysis (PCA):
+   - First 13 components explain 98.5% of variance
+
+4. Final Model Performance:
+   - MSE: 0.00150891
+   - MAE: 0.02925644
+   - R²: -11.2488
+   - Directional Accuracy: 55.09%
+
+===============================================================================
+
